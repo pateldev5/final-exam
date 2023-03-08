@@ -142,7 +142,7 @@ body{
 
 }
 .about{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .about:last-child{
     margin-bottom: 0;
@@ -156,7 +156,9 @@ body{
     margin-top: -10px;
 }
 p{
-    color: #333;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    
     
 }
 .skill .box{
@@ -175,7 +177,7 @@ p{
 }
 .skill .box h4{
     text-transform: uppercase;
-    color: #848C99;
+    color: #000000e8;
     font-weight: 500;
 }
 .skill .box .percent{
@@ -231,4 +233,12 @@ p{
 .career h2 span{
     margin: 200px;
     color:#333;
+}
+
+@media (max-width: 1000px)
+{
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
